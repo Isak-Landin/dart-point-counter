@@ -8,6 +8,12 @@ The objective is not to train a generalized dart-recognition model, but to creat
 
 ---
 
+## Components
+
+- [Mobile App](mobile_app/README.md)
+- [Backend](backend/README.md)
+- [Model Service](model_integration/README.md)
+
 ## Core Idea
 
 This project is easiest to reason about as 4 sections (not 3):
