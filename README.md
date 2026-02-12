@@ -10,12 +10,12 @@ The objective is not to train a generalized dart-recognition model, but to creat
 
 ## Core Idea
 
-The system does not attempt to “understand darts” in a semantic sense. Instead, it separates the problem into three deterministic components and one adaptive correction layer:
+This project is easiest to reason about as 4 sections (not 3):
 
-- Board Pose & Geometry Detection  
-- Dart Impact Localization  
-- Deterministic Score Mapping  
-- Setup-Specific Error Correction (Adaptive Layer)
+1) Mobile App (client UX + camera + voice input)
+2) CV/Model Service (dart-sense-based inference + calibration + scoring API)
+3) Backend (accounts, games, sessions, storage, telemetry, sync)
+4) Shared Contracts (schemas, message formats, versioning, error codes)
 
 The adaptive layer is trained using voice-labeled darts during gameplay in training mode.
 
