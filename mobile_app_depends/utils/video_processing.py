@@ -1,5 +1,5 @@
 from ultralytics import YOLO
-from get_scores import GetScores
+from mobile_app_depends.utils.get_scores import GetScores
 
 import numpy as np
 import time
