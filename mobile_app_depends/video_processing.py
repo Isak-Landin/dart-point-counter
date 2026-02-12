@@ -160,3 +160,14 @@ class VideoProcessing:
     #AI_scorer.start("192.168.0.68:8080", game, np.array((1200, 1600)))
     #AI_scorer.start("external", game)
     #AI_scorer.start("webcam", game)
+
+    """
+    Personal Note:
+    This file must be refactored to match expected use case.
+    Use case will be limited to identifying dart board with the given input feed.
+    It is likely that the mobile application must contain manual framing to allow for a clearer, less confusing -
+    input base-line.
+    Example framing would be a visual overlay that can be moved and resized to change the feed section
+    which is analyzed by the software above.
+    We should allow for complete failure in determining board layout, unless we want to run into unknown error origins.
+    """
