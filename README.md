@@ -1,5 +1,14 @@
 # Project Concept: Self-Calibrating Dartboard Scoring System (Single Phone Camera)
 
+# ⚠️ UNDER CONSTRUCTION
+
+🚧 This repository is actively being built.  
+It is not production-ready and should not be used or deployed.
+
+Interfaces, architecture, and behavior are subject to change without notice.
+
+___
+
 ## Overview
 
 This system enables automatic dart scoring using a single fixed phone camera without requiring pre-trained datasets or large-scale model training. The system improves over time through user-provided voice labels during a training mode. Each dart throw is treated as an independent supervised event.
